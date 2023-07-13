@@ -1,0 +1,283 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+
+
+.home-origin{
+  height: 200px;
+  text-align:center;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+}
+
+p {
+  line-height: 24px;
+  letter-spacing: 0.4px;
+  margin: 0;
+  font-weight: 500;
+}
+
+
+.fontQuotes {
+  font-size: 50px;
+
+}
+
+.parent {
+  /* border: 1px solid #e7e7e7; */
+  margin: 1rem;
+  padding: 2rem 2rem;
+  display: flex;
+
+}
+
+.child1 {
+  width: 45%;
+  padding-right: 4%;
+}
+
+.child2 {
+  width: 45%;
+}
+
+.child2 img {
+  width: 100%;
+}
+
+.visionmission{
+  width: 100%;
+  padding:0 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.vision{
+  width: 45%;
+  height: 350px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.vision img{
+  width:300px;
+  height: 300px;
+  resize:inherit;
+}
+
+.Visioncla {
+  font-size: 20px;
+  color: white;
+}
+
+.Visionpara {
+  font: 18px;
+  color: white;
+}
+
+
+.imgPosition {
+  width: 150px;
+  height: 150px;
+  margin-top: 30px;
+}
+
+.quotes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 50px;
+}
+.service{
+  float: left;
+  width:100%;
+  margin-bottom: 30px;
+ 
+}
+
+.service-icon{
+  float: left;
+    text-align: center;
+    width: 100%;
+   
+}
+.eq{
+  color: #fff;
+  background-color: darkslategray;
+  border-radius: 100%;
+  display: inline-block;
+  font-size: 20px;
+  line-height: 178px;
+  width: 170px;
+  box-shadow: #ececec 0px 0px 5px 12px;
+
+}
+.st{
+  color: #fff;
+  background-color:blueviolet;
+  border-radius: 100%;
+  display: inline-block;
+  font-size: 20px;
+  line-height: 178px;
+  width: 170px;
+  box-shadow: #ececec 0px 0px 5px 12px;
+
+}
+.ex{
+  color: #fff;
+  background-color:brown;
+  border-radius: 100%;
+  display: inline-block;
+  font-size: 20px;
+  line-height: 178px;
+  width: 170px;
+  box-shadow: #ececec 0px 0px 5px 12px;
+
+}
+.in{
+  color: #fff;
+  background-color:crimson;
+  border-radius: 100%;
+  display: inline-block;
+  font-size: 20px;
+  line-height: 178px;
+  width: 170px;
+  box-shadow: #ececec 0px 0px 5px 12px;
+
+}
+.em{
+  color: #fff;
+  background-color:darkblue;
+  border-radius: 100%;
+  display: inline-block;
+  font-size: 20px;
+  line-height: 178px;
+  width: 170px;
+  box-shadow: #ececec 0px 0px 5px 12px;
+
+}
+.tr{
+  color: #fff;
+    background: #17b073;
+    border-radius: 100%;
+    display: inline-block;
+    font-size: 20px;
+    line-height: 178px;
+  width: 170px;
+    box-shadow: #ececec 0px 0px 5px 12px;
+}
+
+
+
+@media screen and (max-width:500px) {
+  .parent {
+    margin: 0 auto;
+    padding: 0rem 0rem;
+    display: block;
+
+  }
+
+  .child1 {
+    width: 90%;
+    margin: 20px auto;
+
+  }
+
+  .child2 {
+    width: 90%;
+    margin: auto;
+  }
+
+  .child2 img {
+    width: 100%;
+    margin: auto;
+  }
+  .visionmission{
+    width: 100%;
+    display: block;
+    align-items: center;
+    justify-content: center;
+  }
+  .vision{
+    width: 100%;
+    margin: 15px 0;
+  }
+  
+  .mission{
+    width: 100%;
+  }
+  service-icon{
+    float: left;
+      text-align: center;
+      width: 100%;
+     
+  }
+  .eq{
+    color: #fff;
+    background-color: darkslategray;
+    border-radius: 100%;
+    display: inline-block;
+    font-size: 20px;
+    line-height: 178px;
+    width: 170px;
+    box-shadow: #ececec 0px 0px 5px 12px;
+  
+  }
+  .st{
+    color: #fff;
+    background-color:blueviolet;
+    border-radius: 100%;
+    display: inline-block;
+    font-size: 20px;
+    line-height: 178px;
+    width: 170px;
+    box-shadow: #ececec 0px 0px 5px 12px;
+  
+  }
+  .ex{
+    color: #fff;
+    background-color:brown;
+    border-radius: 100%;
+    display: inline-block;
+    font-size: 20px;
+    line-height: 178px;
+    width: 170px;
+    box-shadow: #ececec 0px 0px 5px 12px;
+  
+  }
+  .in{
+    color: #fff;
+    background-color:crimson;
+    border-radius: 100%;
+    display: inline-block;
+    font-size: 20px;
+    line-height: 178px;
+    width: 170px;
+    box-shadow: #ececec 0px 0px 5px 12px;
+  
+  }
+  .em{
+    color: #fff;
+    background-color:darkblue;
+    border-radius: 100%;
+    display: inline-block;
+    font-size: 20px;
+    line-height: 178px;
+    width: 170px;
+    box-shadow: #ececec 0px 0px 5px 12px;
+  
+  }
+  .tr{
+    color: #fff;
+      background: #17b073;
+      border-radius: 100%;
+      display: inline-block;
+      font-size: 20px;
+      line-height: 178px;
+    width: 170px;
+      box-shadow: #ececec 0px 0px 5px 12px;
+  }
+
+}
