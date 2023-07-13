@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/PocketNotes/static/css/main.c956f0d3.css",
-    "main.js": "/PocketNotes/static/js/main.488cc926.js",
-    "static/media/one.png": "/PocketNotes/static/media/one.c05800151a95b2823aaa.png",
-    "static/media/two1.png": "/PocketNotes/static/media/two1.5bcb5b40801eff1f9ff5.png",
-    "static/media/logo.jpg": "/PocketNotes/static/media/logo.21077209032bbd427e44.jpg",
-    "index.html": "/PocketNotes/index.html",
-    "main.c956f0d3.css.map": "/PocketNotes/static/css/main.c956f0d3.css.map",
-    "main.488cc926.js.map": "/PocketNotes/static/js/main.488cc926.js.map"
+    "main.css": "/SWS_Ranchi/static/css/main.c956f0d3.css",
+    "main.js": "/SWS_Ranchi/static/js/main.45ddf611.js",
+    "static/media/one.png": "/SWS_Ranchi/static/media/one.c05800151a95b2823aaa.png",
+    "static/media/two1.png": "/SWS_Ranchi/static/media/two1.5bcb5b40801eff1f9ff5.png",
+    "static/media/logo.jpg": "/SWS_Ranchi/static/media/logo.21077209032bbd427e44.jpg",
+    "index.html": "/SWS_Ranchi/index.html",
+    "main.c956f0d3.css.map": "/SWS_Ranchi/static/css/main.c956f0d3.css.map",
+    "main.45ddf611.js.map": "/SWS_Ranchi/static/js/main.45ddf611.js.map"
   },
   "entrypoints": [
     "static/css/main.c956f0d3.css",
-    "static/js/main.488cc926.js"
+    "static/js/main.45ddf611.js"
   ]
 }
