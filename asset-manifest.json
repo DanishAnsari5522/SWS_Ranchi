@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/SWS_Ranchi/static/css/main.010356a8.css",
-    "main.js": "/SWS_Ranchi/static/js/main.dac1d9ed.js",
+    "main.css": "/SWS_Ranchi/static/css/main.bb4ed962.css",
+    "main.js": "/SWS_Ranchi/static/js/main.3c48374b.js",
     "static/media/one.png": "/SWS_Ranchi/static/media/one.c05800151a95b2823aaa.png",
     "static/media/homecomp1.jpeg": "/SWS_Ranchi/static/media/homecomp1.62eac2bdd58b3b30e617.jpeg",
     "static/media/two1.png": "/SWS_Ranchi/static/media/two1.5bcb5b40801eff1f9ff5.png",
@@ -9,11 +9,11 @@
     "static/media/homecomp3.jpeg": "/SWS_Ranchi/static/media/homecomp3.04f2763daca59b5aa261.jpeg",
     "static/media/logo.jpg": "/SWS_Ranchi/static/media/logo.21077209032bbd427e44.jpg",
     "index.html": "/SWS_Ranchi/index.html",
-    "main.010356a8.css.map": "/SWS_Ranchi/static/css/main.010356a8.css.map",
-    "main.dac1d9ed.js.map": "/SWS_Ranchi/static/js/main.dac1d9ed.js.map"
+    "main.bb4ed962.css.map": "/SWS_Ranchi/static/css/main.bb4ed962.css.map",
+    "main.3c48374b.js.map": "/SWS_Ranchi/static/js/main.3c48374b.js.map"
   },
   "entrypoints": [
-    "static/css/main.010356a8.css",
-    "static/js/main.dac1d9ed.js"
+    "static/css/main.bb4ed962.css",
+    "static/js/main.3c48374b.js"
   ]
 }
