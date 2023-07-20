@@ -22,13 +22,13 @@ function ContactUs() {
 
   return (
     <div >
-      <div className="main">
-        <div className="first">
-          <h5 className="second">Home - Contact US</h5>
+      <div className="home-contact">
+        <div>
+          <h5 >Home - Contact US</h5>
         </div>
         <div className="fourth">
           <h1 className="fifth">
-            <span className="seven">Contact</span>  <span className="six">Us</span>
+            <span >Contact</span>  <span className="six">Us</span>
           </h1>
         </div>
 
@@ -39,8 +39,8 @@ function ContactUs() {
 
       </div>
       <div className="ten">
-     <div className="six">
-          <p className="addfon">ADDRESS </p>
+        <div className="six">
+          <p className="addfon">MAIN ADDRESS </p>
           <div className="detail">
             <p><AiTwotoneHome className="iconcol" />   7,Betar Kendra Nivaranpur Rd,Forest</p>
             <p>Officer's Colony, Doranda, Ranchi</p>
@@ -50,16 +50,37 @@ function ContactUs() {
         <div className="six">
           <p className="addfon">EMAIL</p>
           <div className="detail">
-            <p><GrMail className="iconcol"  />   Mail@Citizensfoundation.Org</p>
+            <p><GrMail className="iconcol" />   Mail@Citizensfoundation.Org</p>
           </div>
         </div>
         <div className="six">
           <p className="addfon">PHONE NO</p>
           <div className="detail">
-            <p><AiFillPhone className="iconcol"  />   +916512482777</p>
+            <p><AiFillPhone className="iconcol" />   +916512482777</p>
           </div>
         </div>
-
+      </div>
+      <div className="ten">
+        <div className="six">
+          <p className="addfon">BRANCH ADDRESS </p>
+          <div className="detail">
+            <p><AiTwotoneHome className="iconcol" />   7,Betar Kendra Nivaranpur Rd,Forest</p>
+            <p>Officer's Colony, Doranda, Ranchi</p>
+            <p>Jharkhand-834002</p>
+          </div>
+        </div>
+        <div className="six">
+          <p className="addfon">EMAIL</p>
+          <div className="detail">
+            <p><GrMail className="iconcol" />   Mail@Citizensfoundation.Org</p>
+          </div>
+        </div>
+        <div className="six">
+          <p className="addfon">PHONE NO</p>
+          <div className="detail">
+            <p><AiFillPhone className="iconcol" />   +916512482777</p>
+          </div>
+        </div>
       </div>
       <div className="eight">
         <h4 className="nine">WRITE <span className="six">Us</span> </h4>

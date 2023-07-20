@@ -1,8 +1,8 @@
 {
-  "name": "helo-on-her-hair",
+  "name": "sws",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://DanishAnsari5522.github.io/PocketNotes",
+  "homepage": "https://DanishAnsari5522.github.io/",
   "dependencies": {
     "@react-google-maps/api": "^2.18.1",
     "@testing-library/jest-dom": "^5.16.1",

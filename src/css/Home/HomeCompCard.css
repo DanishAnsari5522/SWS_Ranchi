@@ -1,0 +1,18 @@
+.imghover:hover {
+    background-image: linear-gradient(red, red);
+}
+
+.forcard {
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.2), 0 2px 10px 0 rgba(0, 0, 0, 0.19)
+}
+.viewMoreCards{
+    text-align: right;
+    align-self:flex-end;
+    margin-top: 10px;
+    cursor: pointer;
+    color: blue;
+}
+
+.viewMoreCards:hover{
+    color: rgb(19, 18, 18);
+}

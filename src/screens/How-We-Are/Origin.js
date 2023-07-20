@@ -16,23 +16,45 @@ function Origin() {
                 </div>
             </div>
             <div className="quotes">
-                <h1 className="fontQuotes">MAKING PEOPLE <span className="six"> SELF RELIANT </span></h1>
+                <h1 className="fontQuotes">SECRETARY <span className="six">MESSAGE</span></h1>
             </div>
             <div className="parent">
                 <div className="child1">
-                    <p style={{ color: 'black', fontSize: 17 }}>
-                        Citizens Foundation is a non–profit organization which has evolved;from;its humble beginnings in Jharkhand in 1997 and
-                        has so far registered its presence with pioneering work in the development sector;in&;over 10;states;of India as a national
-                        level organization. As a signatory of the Sustainable Development Goals (SDGs), CF has worked towards its vision of ‘Making
-                        People Self Reliant’ over the past two decades.Over the last 20 years, we have evolved the expertise in health, Sanitation,
-                        Natural Resource Management, Livelihood Promotion, and Protection. We have delivered advocacy and techno–managerial support
-                        to the rural communities and are currently executing projects across the states of Jharkhand, Bihar, Meghalaya and Assam.
-                        CF has focused its expertise towards strengthening the existing government programs via technical and operational
-                        support systems. We ensured that these efforts attain a self–sustaining momentum; enriching the target communities
-                        with a sustainable continuum through partnerships with Government of India, several State Governments, UN Agencies,
-                        PSUs, Corporate and other national and international level organizations. Committed towards working for the Sustainable
-                        Development Goals (SDGs), CF is making continued efforts at making its initiatives and projects sustainable for the community
-                        and the world at large.
+                    <p style={{ color: 'black', fontSize: 16, marginTop: 5 }}>
+                        1. With deep rooted tradition, constant participation, enduring commitment and
+                        perseverance SUHANA WELFARE SOCIETY completed the three year
+                        of its existence. During the year the organization expanded its
+                        ambit of operation and took upon new and challenging issues of
+                        literacy and agriculture development apart from the on-going
+                        interventions to expand its reach to a wider with its assiduous
+                        effort to make a change adhering to the Vision, Mission and
+                        Objectives of the organizations. Graduating on the values of
+                        democratic functioning, participation and commitment towards the vision the
+                        organization has prepared itself to take greater roles and responsibilities in future
+                        through horizontal and vertical expansion of the organization and taking issues
+                        relevant to the contemporary period. It is our great privilege to present a brief report
+                        of activities that SUHANA WELFARE SOCIETY carried out during the year with primary
+                        objective of improvement of quality of life of the last man standing in the queue.
+                    </p>
+                    <p style={{ color: 'black', fontSize: 16, marginTop: 5 }}>
+                        2. Details of various projects implemented during the year are incorporated in
+                        succeeding pages and we are sure that the readers will find them useful in assessing
+                        the work done by SUHANA WELFARE SOCIETY
+                    </p>
+                    <p style={{ color: 'black', fontSize: 16, marginTop: 5 }}>
+                        3. The achievements would not have materialized without the dedicated efforts of
+                        members, staffs, volunteers and activists associated with the SUHANA WELFARE
+                        SOCIETY. On behalf of the society I extend to them our deepest sense of gratitude for
+                        their commitment and hard work. At the same time I believe that we have only
+                        began exploring the fringes of the needs of the people in large and that a greater
+                        degree of commitment, dedication and perseverance will be required in the coming
+                        years to realize our vision and fulfil the needs of the people. I am sure that our
+                        members, staffs, volunteers and activists would be in action even before a word is
+                        spelt out.
+                    </p>
+                    <p style={{ color: 'black', fontSize: 16, marginTop: 5 }}>
+                        4. We also extend our deepest sense of gratitude to our donors, partners, supporters
+                        and promoters for the confidence they entrusted upon the organization.
                     </p>
                 </div>
                 <div className="child2">
@@ -42,13 +64,19 @@ function Origin() {
             <div className="visionmission" >
                 <div className="vision" style={{ backgroundColor: theme.colors.background1 }}>
                     <p className="Visioncla">Vision</p>
-                    <p className="Visionpara">Making People Self Relevent</p>
-                    <img src={images} />
+                    <p className="Visionpara">
+                        SUHANA WELFARE SOCIETY (SWS) visualized a socially just, educated and egalitarian
+                        society free from all forms of exploitation, deprivation and neglected, where proper
+                        and judicious utilization of human, nature and institutional resources are ensured.
+                    </p>
                 </div>
                 <div className="vision" style={{ backgroundColor: theme.colors.background1 }}>
                     <h4 className="Visioncla">Mision</h4>
-                    <p className="Visionpara">Promoting self Relliance through Sustainable Action</p>
-                    <img src={images} />
+                    <p className="Visionpara">
+                        Entrustment of an equitable society, free from all forms of deprivation, neglect,
+                        isolation and exploitation in order to ensure equitable development of all sections of
+                        the society for the balanced development of Indian ensured.
+                    </p>
                 </div>
             </div>
             <div className="quotes">

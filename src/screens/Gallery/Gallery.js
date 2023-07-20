@@ -7,7 +7,7 @@ import { GalleryImage } from "./GalleryImage";
 function Gallery() {
     return (
         <div style={{ backgroundColor: theme.colors.background }}>
-            <div className="home-gallery" >
+            <div className="home-gallery" style={{ backgroundColor: theme.colors.background1 }}>
                 <div>
                     <h5 style={{ color: theme.colors.textColor }}>Home - Gallery</h5>
                 </div>

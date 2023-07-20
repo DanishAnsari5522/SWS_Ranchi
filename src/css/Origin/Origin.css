@@ -5,12 +5,12 @@
 
 
 
-.home-origin{
+.home-origin {
   height: 200px;
-  text-align:center;
+  text-align: center;
   display: flex;
   flex-direction: column;
-  justify-content:center;
+  justify-content: center;
 }
 
 p {
@@ -22,21 +22,19 @@ p {
 
 
 .fontQuotes {
-  font-size: 50px;
+  font-size: 30px;
 
 }
 
 .parent {
-  /* border: 1px solid #e7e7e7; */
   margin: 1rem;
   padding: 2rem 2rem;
-  display: flex;
+  /* display: flex; */
 
 }
 
 .child1 {
-  width: 45%;
-  padding-right: 4%;
+  width: 100%;
 }
 
 .child2 {
@@ -47,34 +45,41 @@ p {
   width: 100%;
 }
 
-.visionmission{
+.visionmission {
   width: 100%;
-  padding:0 50px;
+  padding: 0 50px;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.vision{
+
+.vision {
   width: 45%;
-  height: 350px;
+  height: 300px;
   text-align: center;
   border-radius: 10px;
+  padding: 20px;
+
 }
 
-.vision img{
-  width:300px;
+.vision img {
+  width: 300px;
   height: 300px;
-  resize:inherit;
+  resize: inherit;
 }
 
 .Visioncla {
-  font-size: 20px;
-  color: white;
+  font-size: 32px;
+  color: #9d1faa;
 }
 
 .Visionpara {
-  font: 18px;
-  color: white;
+  height: 200px;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
 }
 
 
@@ -90,20 +95,22 @@ p {
   justify-content: center;
   padding-top: 50px;
 }
-.service{
+
+.service {
   float: left;
-  width:100%;
+  width: 100%;
   margin-bottom: 30px;
- 
+
 }
 
-.service-icon{
+.service-icon {
   float: left;
-    text-align: center;
-    width: 100%;
-   
+  text-align: center;
+  width: 100%;
+
 }
-.eq{
+
+.eq {
   color: #fff;
   background-color: darkslategray;
   border-radius: 100%;
@@ -114,9 +121,10 @@ p {
   box-shadow: #ececec 0px 0px 5px 12px;
 
 }
-.st{
+
+.st {
   color: #fff;
-  background-color:blueviolet;
+  background-color: blueviolet;
   border-radius: 100%;
   display: inline-block;
   font-size: 20px;
@@ -125,9 +133,10 @@ p {
   box-shadow: #ececec 0px 0px 5px 12px;
 
 }
-.ex{
+
+.ex {
   color: #fff;
-  background-color:brown;
+  background-color: brown;
   border-radius: 100%;
   display: inline-block;
   font-size: 20px;
@@ -136,9 +145,10 @@ p {
   box-shadow: #ececec 0px 0px 5px 12px;
 
 }
-.in{
+
+.in {
   color: #fff;
-  background-color:crimson;
+  background-color: crimson;
   border-radius: 100%;
   display: inline-block;
   font-size: 20px;
@@ -147,9 +157,10 @@ p {
   box-shadow: #ececec 0px 0px 5px 12px;
 
 }
-.em{
+
+.em {
   color: #fff;
-  background-color:darkblue;
+  background-color: darkblue;
   border-radius: 100%;
   display: inline-block;
   font-size: 20px;
@@ -158,15 +169,16 @@ p {
   box-shadow: #ececec 0px 0px 5px 12px;
 
 }
-.tr{
+
+.tr {
   color: #fff;
-    background: #17b073;
-    border-radius: 100%;
-    display: inline-block;
-    font-size: 20px;
-    line-height: 178px;
+  background: #17b073;
+  border-radius: 100%;
+  display: inline-block;
+  font-size: 20px;
+  line-height: 178px;
   width: 170px;
-    box-shadow: #ececec 0px 0px 5px 12px;
+  box-shadow: #ececec 0px 0px 5px 12px;
 }
 
 
@@ -194,27 +206,31 @@ p {
     width: 100%;
     margin: auto;
   }
-  .visionmission{
+
+  .visionmission {
     width: 100%;
     display: block;
     align-items: center;
     justify-content: center;
   }
-  .vision{
+
+  .vision {
     width: 100%;
     margin: 15px 0;
   }
-  
-  .mission{
+
+  .mission {
     width: 100%;
   }
-  service-icon{
+
+  service-icon {
     float: left;
-      text-align: center;
-      width: 100%;
-     
+    text-align: center;
+    width: 100%;
+
   }
-  .eq{
+
+  .eq {
     color: #fff;
     background-color: darkslategray;
     border-radius: 100%;
@@ -223,61 +239,66 @@ p {
     line-height: 178px;
     width: 170px;
     box-shadow: #ececec 0px 0px 5px 12px;
-  
+
   }
-  .st{
+
+  .st {
     color: #fff;
-    background-color:blueviolet;
+    background-color: blueviolet;
     border-radius: 100%;
     display: inline-block;
     font-size: 20px;
     line-height: 178px;
     width: 170px;
     box-shadow: #ececec 0px 0px 5px 12px;
-  
+
   }
-  .ex{
+
+  .ex {
     color: #fff;
-    background-color:brown;
+    background-color: brown;
     border-radius: 100%;
     display: inline-block;
     font-size: 20px;
     line-height: 178px;
     width: 170px;
     box-shadow: #ececec 0px 0px 5px 12px;
-  
+
   }
-  .in{
+
+  .in {
     color: #fff;
-    background-color:crimson;
+    background-color: crimson;
     border-radius: 100%;
     display: inline-block;
     font-size: 20px;
     line-height: 178px;
     width: 170px;
     box-shadow: #ececec 0px 0px 5px 12px;
-  
+
   }
-  .em{
+
+  .em {
     color: #fff;
-    background-color:darkblue;
+    background-color: darkblue;
     border-radius: 100%;
     display: inline-block;
     font-size: 20px;
     line-height: 178px;
     width: 170px;
     box-shadow: #ececec 0px 0px 5px 12px;
-  
+
   }
-  .tr{
+
+  .tr {
     color: #fff;
-      background: #17b073;
-      border-radius: 100%;
-      display: inline-block;
-      font-size: 20px;
-      line-height: 178px;
+    background: #17b073;
+    border-radius: 100%;
+    display: inline-block;
+    font-size: 20px;
+    line-height: 178px;
     width: 170px;
-      box-shadow: #ececec 0px 0px 5px 12px;
+    box-shadow: #ececec 0px 0px 5px 12px;
   }
 
 }

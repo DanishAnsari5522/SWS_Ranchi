@@ -1,16 +1,16 @@
 import React from "react";
-import '../css/Newsletter/Newsletter.css'
-import Newsimage from '../Assets/Newsimage.jpg';
+import '../../css/Newsletter/Newsletter.css';
+import one from '../../assets/homecomp1.jpeg'
 import Button from 'react-bootstrap/Button';
-import Footer from "../Footer";
+import theme from "../../config/theme";
 function Newsletter() {
     return (
         <div>
-            <div className="main">
-                <div className="first">
-                    <h5 className="second">Home - Newsroom-Newsletter</h5>
+            <div className="Newsletter" style={{ backgroundColor: theme.colors.background1 }}>
+                <div>
+                    <h5 style={{ color: theme.colors.textColor }}>Home - Newsroom-Newsletter</h5>
                 </div>
-                <div className="fourth">
+                <div>
                     <h1 className="fifth">
                         <span className="seven">ALL</span>  <span className="six">Newsletter</span>
                     </h1>
@@ -25,10 +25,9 @@ function Newsletter() {
                     <Button className="btn" variant="primary" type="submit">
                         Read
                     </Button>
-                    <img className="news-image" src={Newsimage} alt="My Image" />
                 </div>
             </div>
-            
+
 
         </div>
 

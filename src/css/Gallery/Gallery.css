@@ -1,8 +1,19 @@
-.home-gallery{
+.home-gallery {
     height: 200px;
-    text-align:center;
+    text-align: center;
     background-color: #1d2c38;
     display: flex;
     flex-direction: column;
-    justify-content:center;
+    justify-content: center;
+}
+
+.galleryimg {
+    padding: 0 15px;
+    overflow: hidden;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.forgallerycard:hover {
+    background-color: #1d2c38;
 }

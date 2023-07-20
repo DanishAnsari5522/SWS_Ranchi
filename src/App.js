@@ -9,19 +9,25 @@ import Origin from './screens/How-We-Are/Origin';
 // import ContactUs from
 import ContactUs from './screens/ContactUs';
 import Gallery from './screens/Gallery/Gallery';
+import Newsletter from './screens/News/Newletter';
+import Activitys from './screens/Activitys/Index';
+import ActivityInDetail from './screens/Activitys/ActivityInDetail';
 
 function App() {
   const auth = localStorage.getItem('token');
   console.log(auth);
 
   return (
-    <div className="App">
+    <div>
       <BrowserRouter>
         <Navigation />
         <Route path="/" exact><Home /></Route>
         <Route path="/Origin" exact><Origin /></Route>
         <Route path="/contactus" exact><ContactUs /></Route>
         <Route path="/gallery" exact><Gallery /></Route>
+        <Route path="/news" exact><Newsletter /></Route>
+        <Route path="/Activitys" exact><Activitys /></Route>
+        <Route path="/ActivityInDetail" exact><ActivityInDetail /></Route>
       </BrowserRouter>
       <Footer />
     </div>

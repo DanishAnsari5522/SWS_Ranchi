@@ -1,0 +1,168 @@
+/* .dan1 {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 100%;
+    background-color: white;
+    margin-left: 45%;
+    border-radius: 40px;
+    border: 1px solid black;
+}
+
+.dan2 {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 100%;
+    background-color: white;
+    margin-left: 50%;
+    border-radius: 40px;
+    border: 1px solid black;
+}
+
+.dan {
+    color: red;
+    font-size: 14px;
+    align-items: center;
+    align-self: center;
+}
+
+.outer-box {
+    background-color: rgb(236, 219, 93);
+    width: 90%;
+    margin: auto;
+    height: 300px;
+    border-radius: 20px;
+}
+
+.inner-box {
+    width: 80%;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.TESTIMONIAL {
+    padding-top: 10px;
+    text-align: center;
+}
+
+h3 {
+    color: red;
+}
+
+.auther {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 22px;
+}
+
+.for-ic {
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+}
+
+.ic {
+    width: inherit;
+    height: inherit;
+    display: flex;
+    background-color: red;
+    border-radius: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+
+}
+
+.detail {
+    width: 90%;
+    font-size: 16px;
+    text-align: center;
+}
+
+.ic-left {
+    color: black;
+}
+
+@media screen and (max-width:500px) {
+    .inner-box {
+        display: block;
+    }
+
+    .for-ic {
+        width: 70px;
+        height: 70px;
+        border-radius: 100%;
+        align-items: center;
+        text-align: center;
+        margin-left: 35%;
+        margin-top: -10px;
+        margin-bottom: 5px;
+    }
+
+    .outer-box {
+        height: 400px;
+    }
+
+    .dan1 {
+        margin-left: 35%;
+    }
+
+    .dan2 {
+        margin-left: 50%;
+    }
+} */
+
+
+.sliderHC {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imageHC {
+    width: 1000px;
+    height: 600px;
+    border-radius: 10px;
+}
+
+.right-arrowHC {
+    position: absolute;
+    top: 50%;
+    right: 32px;
+    font-size: 3rem;
+    color: #000;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+}
+
+.left-arrowHC {
+    position: absolute;
+    top: 50%;
+    left: 32px;
+    font-size: 3rem;
+    color: #000;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+}
+
+.slideHC {
+    opacity: 0;
+    transition-duration: 1s ease;
+}
+
+.slideHC.activeHC {
+    opacity: 1;
+    transition-duration: 1s;
+    transform: scale(1.08);
+}

@@ -1,0 +1,43 @@
+.ActivityBlock {
+    margin-top: 40px;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.viewdetailactivity {
+    border: 0;
+    outline: none;
+    padding: 5px 10px;
+    border-radius: 7px;
+    background-color: #9d1faa;
+    color: white;
+}
+
+
+.viewdetailactivity:hover {
+    border: 0;
+    outline: none;
+    padding: 5px 10px;
+    border-radius: 7px;
+    background-color: rgb(19, 18, 18);
+
+}
+
+.dancard {
+    margin: 10px;
+}
+
+.footerCard {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media screen and (max-width:500px) {
+    .viewdetailactivity {
+        outline: none;
+        padding: 5px 10px;
+        border-radius: 7px;
+        background-color: #9d1faa;
+    }
+}

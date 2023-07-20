@@ -1,0 +1,15 @@
+.homecomp {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media screen and (max-width:500px) {
+
+    .homecomp {
+        display: block;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+}
