@@ -15,7 +15,8 @@ function Navigation() {
                     <Container className="dannav">
                         <Navbar.Brand>
                             {/* <img src={logo} className="logo" /> */}
-                            SWS</Navbar.Brand>
+                            <Link to="/" className="nav-item text-white">SWS</Link>
+                            </Navbar.Brand>
                         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                         <Navbar.Collapse id="responsive-navbar-nav">
                             <Nav className="me-auto">

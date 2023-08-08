@@ -8,8 +8,11 @@ import theme from '../../config/theme';
 import HomeComp from './HomeComp';
 import HomeCompCarosal from './HomeCompCarosal';
 import { HomeCompCarosalData } from './HomeCompCarosalData';
+import { useHistory } from 'react-router-dom'
+
 
 function Home() {
+    let history = useHistory();
     return (
         <>
             <Carousel variant="dark">
@@ -20,7 +23,8 @@ function Home() {
                                 <img src={one} className="slider-image" />
                             </div>
                             <div className="first-div">
-                                <h1 className='unlimited'>Welcome to Helo on her hair</h1><br />
+                                <h1 className='unlimited'>BAMBOO CRAFT TRAINING</h1><br />
+                                <span className='viewdetailactivity' onClick={() => history.push('/Activitys')} style={{ cursor: 'pointer',padding:'7px' }}>View more</span>
                             </div>
 
                         </div>
@@ -33,7 +37,8 @@ function Home() {
                                 <img src={two} className="slider-image" />
                             </div>
                             <div className="first-div">
-                                <h1 className='unlimited'>Tie right.Life can be a mess ,why let your hair tir be?</h1><br />
+                                <h1 className='unlimited'>BAMBOO CRAFT TRAINING</h1><br />
+                                <span className='viewdetailactivity' onClick={() => history.push('/Activitys')} style={{ cursor: 'pointer',padding:'7px' }}>View more</span>
                             </div>
 
                         </div>
@@ -46,7 +51,8 @@ function Home() {
                                 <img src={three} className="slider-image" />
                             </div>
                             <div className="first-div">
-                                <h1 className='unlimited'>Helo on her hair new offer announced soon</h1><br />
+                                <h1 className='unlimited'>BAMBOO CRAFT TRAINING</h1><br />
+                                <span className='viewdetailactivity' onClick={() => history.push('/Activitys')} style={{ cursor: 'pointer',padding:'7px' }}>View more</span>
                             </div>
 
                         </div>
@@ -59,7 +65,8 @@ function Home() {
                                 <img src={four} className="slider-image" />
                             </div>
                             <div className="first-div">
-                                <h1 className='unlimited'>Helo on her hair new offer announced soon</h1><br />
+                                <h1 className='unlimited'>BAMBOO CRAFT TRAINING</h1><br />
+                                <span className='viewdetailactivity' onClick={() => history.push('/Activitys')} style={{ cursor: 'pointer',padding:'7px' }}>View more</span>
                             </div>
                         </div>
                     </div>
@@ -110,7 +117,7 @@ function Home() {
             </div>
 
             <div>
-                <HomeCompCarosal slides={HomeCompCarosalData} />
+                {/* <HomeCompCarosal slides={HomeCompCarosalData} /> */}
             </div>
 
         </>
