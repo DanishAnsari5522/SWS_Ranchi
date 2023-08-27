@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/SWS_Ranchi/static/css/main.bf4edbdd.css",
-    "main.js": "/SWS_Ranchi/static/js/main.44d11dff.js",
+    "main.js": "/SWS_Ranchi/static/js/main.37348e52.js",
     "static/media/one.png": "/SWS_Ranchi/static/media/one.c05800151a95b2823aaa.png",
     "static/media/homecomp1.jpeg": "/SWS_Ranchi/static/media/homecomp1.62eac2bdd58b3b30e617.jpeg",
     "static/media/two1.png": "/SWS_Ranchi/static/media/two1.5bcb5b40801eff1f9ff5.png",
@@ -10,10 +10,10 @@
     "static/media/homecomp3.jpeg": "/SWS_Ranchi/static/media/homecomp3.04f2763daca59b5aa261.jpeg",
     "index.html": "/SWS_Ranchi/index.html",
     "main.bf4edbdd.css.map": "/SWS_Ranchi/static/css/main.bf4edbdd.css.map",
-    "main.44d11dff.js.map": "/SWS_Ranchi/static/js/main.44d11dff.js.map"
+    "main.37348e52.js.map": "/SWS_Ranchi/static/js/main.37348e52.js.map"
   },
   "entrypoints": [
     "static/css/main.bf4edbdd.css",
-    "static/js/main.44d11dff.js"
+    "static/js/main.37348e52.js"
   ]
 }
