@@ -28,6 +28,7 @@ function App() {
         <Route path="/news" exact><Newsletter /></Route>
         <Route path="/Activitys" exact><Activitys /></Route>
         <Route path="/ActivityInDetail" exact><ActivityInDetail /></Route>
+        <Route path="/SWS_Ranchi" exact><Home /></Route>
       </BrowserRouter>
       <Footer />
     </div>
