@@ -50,13 +50,13 @@ function ContactUs() {
         <div className="six">
           <p className="addfon">EMAIL</p>
           <div className="detail">
-            <p><GrMail className="iconcol" />   Mail@Citizensfoundation.Org</p>
+            <p><GrMail className="iconcol" />   swsranchi@gmail.com</p>
           </div>
         </div>
         <div className="six">
           <p className="addfon">PHONE NO</p>
           <div className="detail">
-            <p><AiFillPhone className="iconcol" />   +916512482777</p>
+            <p><AiFillPhone className="iconcol" />   +919262786678</p>
           </div>
         </div>
       </div>
@@ -72,13 +72,13 @@ function ContactUs() {
         <div className="six">
           <p className="addfon">EMAIL</p>
           <div className="detail">
-            <p><GrMail className="iconcol" />   Mail@Citizensfoundation.Org</p>
+            <p><GrMail className="iconcol" />   swsranchi@gmail.com</p>
           </div>
         </div>
         <div className="six">
           <p className="addfon">PHONE NO</p>
           <div className="detail">
-            <p><AiFillPhone className="iconcol" />   +916512482777</p>
+            <p><AiFillPhone className="iconcol" />   +919262786678</p>
           </div>
         </div>
       </div>

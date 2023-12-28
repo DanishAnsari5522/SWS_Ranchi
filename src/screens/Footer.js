@@ -20,10 +20,10 @@ function Footer() {
                 <div className="six">
                     <p className="addfon">Connet With us</p>
                     <div className="detail">
-                        <p><GrMail className="iconcol" />  Mail@Citizensfoundation.Org</p>
+                        <p><GrMail className="iconcol" /> swsranchi@gmail.com</p>
                     </div>
                     <div className="detail">
-                        <p><AiFillPhone className="iconcol"/> +916512482777</p>
+                        <p><AiFillPhone className="iconcol"/> +919262786678</p>
                     </div>
                 </div>
                 <div className="six">
