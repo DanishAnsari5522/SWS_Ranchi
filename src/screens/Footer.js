@@ -12,9 +12,8 @@ function Footer() {
                 <div className="six">
                     <p className="addfon">ADDRESS </p>
                     <div className="detail">
-                        <p><AiTwotoneHome className="iconcol" />  7,Betar Kendra Nivaranpur Rd,Forest</p>
-                        <p>Officer's Colony, Doranda, Ranchi</p>
-                        <p>Jharkhand-834002</p>
+                        <p><AiTwotoneHome className="iconcol" />Kachnar Toli, Behind Anant Automobile, Hatia, Ranchi</p>
+                        <p>Jharkhand – 834003</p>
                     </div>
                 </div>
                 <div className="six">
