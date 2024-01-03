@@ -12,8 +12,8 @@ function Footer() {
                 <div className="six">
                     <p className="addfon">ADDRESS </p>
                     <div className="detail">
-                        <p><AiTwotoneHome className="iconcol" />Kachnar Toli, Behind Anant Automobile, Hatia, Ranchi</p>
-                        <p>Jharkhand – 834003</p>
+                        <p><AiTwotoneHome className="iconcol" />Kachnar Toli, Behind Anant Automobile,</p>
+                        <p> Hatia, Ranchi,Jharkhand – 834003</p>
                     </div>
                 </div>
                 <div className="six">
