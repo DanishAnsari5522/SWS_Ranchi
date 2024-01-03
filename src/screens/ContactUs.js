@@ -50,7 +50,7 @@ function ContactUs() {
       <div className="ten" style={{marginTop:'-20px'}}>
         <div className="detail">
           <p><span className="head-office">Branch Office : </span>Behind R K Public School, Sonpurwa,</p>
-          <p>Garhwa, Jharkhand – 822114 Yellow Green</p>
+          <p>Garhwa, Jharkhand – 822114</p>
         </div>
       </div>
 
