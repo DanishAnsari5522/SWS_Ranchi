@@ -22,7 +22,7 @@ function ContactUs() {
 
   return (
     <div >
-      <div className="home-contact">
+      <div className="home-contact" style={{padding:'50px 0px'}}>
         <div>
           <h5 >Home - Contact US</h5>
         </div>
@@ -35,24 +35,35 @@ function ContactUs() {
       </div>
 
       <div className="eight">
-        <h4 className="nine">REACH <span className="six">Us</span> </h4>
-
+        <h4 className="nine">REACH <span className="six">US</span> </h4>
       </div>
       <div className="ten">
         <div className="six">
-          <p className="addfon">MAIN ADDRESS </p>
-    <div className="detail">
-                        <p><AiTwotoneHome className="iconcol" />Kachnar Toli, Behind Anant Automobile,</p>
-                        <p> Hatia, Ranchi,Jharkhand – 834003</p>
-                    </div>
-
+          <p className="addfon">ADDRESS :</p>
+          <div className="detail">
+            <p><span className="head-office">Head Office : </span>Kachnar Toli, Behind Anant Automobile,</p>
+            <p> Hatia, Ranchi,Jharkhand – 834003</p>
+          </div>
         </div>
+
+      </div>
+      <div className="ten" style={{marginTop:'-20px'}}>
+        <div className="detail">
+          <p><span className="head-office">Branch Office : </span>Behind R K Public School, Sonpurwa,</p>
+          <p>Garhwa, Jharkhand – 822114 Yellow Green</p>
+        </div>
+      </div>
+
+      <div className="ten">
         <div className="six">
           <p className="addfon">EMAIL</p>
           <div className="detail">
             <p><GrMail className="iconcol" />   swsranchi@gmail.com</p>
           </div>
         </div>
+      </div>
+
+      <div className="ten">
         <div className="six">
           <p className="addfon">PHONE NO</p>
           <div className="detail">
@@ -60,33 +71,13 @@ function ContactUs() {
           </div>
         </div>
       </div>
-      <div className="ten">
-        <div className="six">
-          <p className="addfon">BRANCH ADDRESS </p>
-          <div className="detail">
-            <p><AiTwotoneHome className="iconcol" />Behind R K Public School, Sonpurwa,</p>
-            <p>Garhwa, Jharkhand – 822114 Yellow Green</p>
-          </div>
-        </div>
-        <div className="six">
-          <p className="addfon">EMAIL</p>
-          <div className="detail">
-            <p><GrMail className="iconcol" />   swsranchi@gmail.com</p>
-          </div>
-        </div>
-        <div className="six">
-          <p className="addfon">PHONE NO</p>
-          <div className="detail">
-            <p><AiFillPhone className="iconcol" />   +919262786678</p>
-          </div>
-        </div>
-      </div>
-      <div className="eight">
+
+      {/* <div className="eight">
         <h4 className="nine">WRITE <span className="six">Us</span> </h4>
 
-      </div>
+      </div> */}
       <div className="formspec col-12" >
-        <div className="inder1">
+        {/* <div className="inder1">
 
           <Form className="form">
             <Form.Group className="mb-3" controlId="formBasicEmail">
@@ -108,7 +99,7 @@ function ContactUs() {
             </Button>
           </Form>
 
-        </div>
+        </div> */}
         <div className="map">
           <LoadScript googleMapsApiKey="AIzaSyBDEJiS7M2Uh0U2srDrVl1gyQOZwip1b5U">
             <GoogleMap mapContainerStyle={containerStyle} center={center} zoom={10}>
