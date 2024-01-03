@@ -41,11 +41,11 @@ function ContactUs() {
       <div className="ten">
         <div className="six">
           <p className="addfon">MAIN ADDRESS </p>
-          <div className="detail">
-            <p><AiTwotoneHome className="iconcol" />   7,Betar Kendra Nivaranpur Rd,Forest</p>
-            <p>Officer's Colony, Doranda, Ranchi</p>
-            <p>Jharkhand-834002</p>
-          </div>
+    <div className="detail">
+                        <p><AiTwotoneHome className="iconcol" />Kachnar Toli, Behind Anant Automobile,</p>
+                        <p> Hatia, Ranchi,Jharkhand – 834003</p>
+                    </div>
+
         </div>
         <div className="six">
           <p className="addfon">EMAIL</p>
@@ -64,9 +64,8 @@ function ContactUs() {
         <div className="six">
           <p className="addfon">BRANCH ADDRESS </p>
           <div className="detail">
-            <p><AiTwotoneHome className="iconcol" />   7,Betar Kendra Nivaranpur Rd,Forest</p>
-            <p>Officer's Colony, Doranda, Ranchi</p>
-            <p>Jharkhand-834002</p>
+            <p><AiTwotoneHome className="iconcol" />Behind R K Public School, Sonpurwa,</p>
+            <p>Garhwa, Jharkhand – 822114 Yellow Green</p>
           </div>
         </div>
         <div className="six">
